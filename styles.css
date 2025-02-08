@@ -1,0 +1,158 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+  background-image: url(./fon_dereviannyj_poverhnost_65900_1920x1080.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #f4e4c1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: inset 10px 0 20px rgba(0, 0, 0, 0.2),
+    0 10px 20px rgba(0, 0, 0, 0.3);
+  border-left: 15px solid #c4a484;
+  border-right: 15px solid #c4a484;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.02);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.4),
+    0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #7e5829;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Papyrus", fantasy;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #7e5829;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  filter: blur(0.8px);
+  opacity: 0.8;
+}
+
+p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+}
+
+.contact-info a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  padding: 12px 25px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 16px;
+  padding-left: 20px;
+  position: relative;
+}
+
+ul li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  color:#7e5829;
+}
+
+ul li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  color:#7e5829;
+}
+
+.experience ul {
+  margin-left: 20px;
+}
+
+.projects ul {
+  margin-left: 20px;
+}
+
+.projects a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projects a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
