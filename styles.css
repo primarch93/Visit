@@ -156,6 +156,21 @@ ul li::before {
   padding: 20px;
 }
 
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .skills,
+  .soft-skills,
+  .languages {
+    width: 100%; 
+    min-width: unset; 
+    max-width: 100%; 
+    text-align: center; 
+  }
+}
+
 .skills,
 .soft-skills,
 .languages {
