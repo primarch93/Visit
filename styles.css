@@ -188,21 +188,3 @@ ul li::before {
     flex-direction: column;
   }
 }
-/* .seal {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  width: 80px;
-  height: 80px;
-  background: radial-gradient(circle, #8B0000 30%, #5A0000 90%);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: gold;
-  font-weight: bold;
-  overflow: hidden;
-  font-size: 20px;
-  text-shadow: 1px 1px 2px black;
-  box-shadow: inset -2px -2px 8px rgba(0, 0, 0, 0.6), 2px 2px 4px rgba(0, 0, 0, 0.3);
-} */
