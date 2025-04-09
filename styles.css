@@ -84,12 +84,18 @@ p {
   color: #3498db;
   text-decoration: none;
   font-weight: bold;
-  display: block;
+ margin-right: 100px;
+  align-items: center;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+ padding: 10px 15px;
+ border-radius: 10px;
 }
 
 .contact-info a:hover {
   text-decoration: underline;
 }
+
+
 
 ul {
   list-style-type: none;
