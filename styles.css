@@ -24,6 +24,19 @@ body {
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
 }
 
+.photo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #444;
+}
+
 h1 {
   font-size: 36px;
   text-align: center;
@@ -32,7 +45,7 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 18px;
   color: #333;
   margin-top: 30px;
   margin-bottom: 15px;
@@ -118,6 +131,26 @@ ul li {
   min-width: 250px;
 }
 
+
+.skills-container h2 i {
+  font-size: 16px; 
+  color: #333;
+}
+
+.skills-container ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.skills-container ul li i {
+  color: #333;
+  min-width: 20px;
+  font-size: 16px;
+}
+
 @media (max-width: 768px) {
   .container {
     width: 95%;
@@ -135,4 +168,23 @@ ul li {
   .skills-container {
     flex-direction: column;
   }
+}
+
+.sidebar {
+  flex: 0 0 280px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 12px rgba(0,0,0,0.05);
+}
+.sidebar h2 {
+  font-size: 18px;
+  color: #333;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
