@@ -260,3 +260,27 @@ a:hover {
     flex-direction: column;
   }
 }
+
+.projects-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.projects-table th,
+.projects-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.projects-table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+.projects-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
