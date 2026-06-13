@@ -9,6 +9,14 @@ body {
   padding: 40px 20px;
 }
 
+.container p, 
+.container ul li, 
+.container li {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #475569;
+}
 
 
 .container {
