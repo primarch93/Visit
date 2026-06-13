@@ -4,10 +4,8 @@ body {
     radial-gradient(circle at top left, rgba(37,99,235,0.12), transparent 40%),
     radial-gradient(circle at bottom right, rgba(59,130,246,0.10), transparent 45%),
     #eef3f9;
-
   color: #1f2937;
   line-height: 1.7;
-
   padding: 40px 20px;
 }
 
@@ -283,4 +281,24 @@ a:hover {
 
 .projects-table tr:nth-child(even) {
   background-color: #fafafa;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.profile-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3b82f6;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+    transform: scale(1.03);
 }
