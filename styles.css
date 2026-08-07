@@ -18,10 +18,9 @@
   padding: 0;
 }
 
-/* Жорстко фіксуємо розмір вікна iLovePDF під 1920x1080 */
 html {
-  width: 1920px;
-  height: 1080px;
+  width: 100%;
+  height: 100%;
   background-color: var(--bg-main);
 }
 
@@ -30,19 +29,18 @@ body {
   background-color: var(--bg-main);
   color: var(--text-main);
   line-height: 1.45;
-  width: 1920px;
-  height: 1080px;
+  width: 100vw;
+  min-height: 100vh;
   margin: 0;
-  padding: 0;
-  /* Центруємо картку абсолютно по центру екрана 1920x1080 */
+  padding: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .resume-card {
   width: 860px;
+  max-width: 90%;
   background: var(--card-bg);
   border-radius: 18px;
   padding: 24px 28px;
