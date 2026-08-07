@@ -28,11 +28,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .resume-card {
   width: 100%;
   max-width: 900px;
+  margin: 0 auto;
   background: var(--card-bg);
   border-radius: 16px;
   padding: 35px;
