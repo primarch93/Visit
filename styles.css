@@ -17,32 +17,34 @@
   padding: 0;
 }
 
-html, body {
-  width: 100%;
-  min-height: 100vh;
+html {
+  width: 1920px;
+  height: 1080px;
   background-color: var(--bg-main);
 }
 
 body {
   font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  background-color: var(--bg-main);
   color: var(--text-main);
   line-height: 1.5;
-  padding: 40px 0;
+  width: 1920px;
+  height: 1080px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .resume-card {
-  width: 1350px; /* Спеціальний пропорційний розмір для рендеру 1920px на A4 */
-  max-width: 95%;
+  width: 1350px;
   background: var(--card-bg);
   border-radius: 24px;
   padding: 45px 50px;
   border: 1px solid var(--border-color);
   box-shadow: 0 15px 35px -5px rgba(15, 23, 42, 0.1);
-  margin: 0 auto !important;
+  margin: auto;
 }
 
 .header {
