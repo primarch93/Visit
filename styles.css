@@ -18,30 +18,32 @@
   padding: 0;
 }
 
-html, body {
+html {
   width: 100%;
-  min-height: 100vh;
-  background-color: var(--bg-main);
 }
 
 body {
   font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  background-color: var(--bg-main);
   color: var(--text-main);
   line-height: 1.45;
-  padding: 30px 15px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  padding: 30px 0;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
 }
 
 .resume-card {
   width: 100%;
   max-width: 860px;
+  margin: 0 auto !important;
   background: var(--card-bg);
   border-radius: 18px;
-  padding: 24px 28px; /* Зменшено бічні та вертикальні поля всередині картки */
+  padding: 24px 28px;
   border: 1px solid var(--border-color);
   box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08);
+  text-align: left;
 }
 
 .header {
